@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Onest", sans-serif;
+}
+
+a {
+  text-decoration: 0;
+  color: white;
+  transition: all .2s linear;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover {
+  font-size: 34px;
+  color: rgb(201, 201, 201);
+}
+
+.head {
+  background-color: black;
+}
+
+.foot {
+  text-align: center;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.foot p {
+  color: white;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  margin: 50px 50px 0 50px;
+  padding-bottom: 50px;
+}
+
+.photo {
+  margin-right: 50px;
+}
+
+.photo img {
+  border: 3px #ff6161 solid;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 24px;
+}
